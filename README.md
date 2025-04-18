@@ -24,7 +24,7 @@ implements an LSTM model to predict the movement of the NIFTY 50 index. It uses 
 
 1. Clone the repository.
 2. Install the required libraries.
-3. Run the Jupyter Notebook `stock_prediction.ipynb`.
+3. Run the Jupyter Notebook `marketpredictorlstm.ipynb`.
 
 ## Results
 
