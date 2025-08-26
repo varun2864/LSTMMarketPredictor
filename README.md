@@ -8,8 +8,8 @@ implements an LSTM model to predict the movement of the NIFTY 50 index. It uses 
 
 **Steps involved:**
 
-1. **Data Acquisition:** The project uses the `yfinance` library to download historical stock data for the NIFTY 50 index from Yahoo Finance.
-2. **Data Preprocessing:** The data is cleaned and preprocessed, including handling missing values and creating new features like moving averages and ratios.
+1. **Data Acquisition:** `yfinance` library to download historical stock data for the NIFTY 50 index from Yahoo Finance.
+2. **Data Preprocessing:** The data is cleaned and preprocessed.
 3. **Feature Engineering:** The project uses technical indicators such as RSI, MACD, Bollinger Bands and EMA to derive additional features for the model.
 4. **Model Building:** An LSTM model is built using the `tensorflow.keras` library.
 5. **Model Training:** The LSTM model is trained using the historical stock data.
@@ -20,18 +20,12 @@ implements an LSTM model to predict the movement of the NIFTY 50 index. It uses 
 - Python 3.7+
 - Libraries: `yfinance`, `ta`, `scikeras`, `scikit-learn`, `tensorflow`, `pandas`, `numpy`
 
-## Usage
-
-1. Clone the repository.
-2. Install the required libraries.
-3. Run the Jupyter Notebook `marketpredictorlstm.ipynb`.
-
 ## Results
 
-The LSTM model achieves an accuracy of 60% on the test data.
+The LSTM model achieves an accuracy of approximately 60% on the test data.
 
 ## Future Work
 
-- Experimenting with different architectures and hyperparameters for the LSTM model.
+- Different architectures and hyperparameters for the LSTM model.
 - Incorporating more technical indicators and fundamental data.
 - Develop a trading strategy based on the model's predictions.
